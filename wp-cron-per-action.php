@@ -5,9 +5,12 @@
  *	Description:    Ensures to load wp-cron.php per due action to avoid exceeding the PHP's maximum execution time.
  *	Author:         Michael Uno (miunosoft)
  *	Author URI:     http://michaeluno.jp
- *	Version:        0.0.1
+ *	Version:        1.0.0
  */
 
+/**
+ * Loads the plugin.
+ */
 class WPCronPerAction_Bootstrap {
     
     public function __construct() {
